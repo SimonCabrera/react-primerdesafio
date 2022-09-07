@@ -7,10 +7,10 @@ const NavBar = () => {
     <header>
       <img src={logo} className="logo"></img>
       <nav>
-        <ul className='navBar_list'>
-          <li className='navBar_item'><a href="#">Productos</a></li>
-          <li className='navBar_item'><a href="#">Productos</a></li>
-          <li className='navBar_item'><a href="#">Productos</a></li>
+        <ul className='navBar-list'>
+          <li className='navBar-item'><a className="list-link" href="#">Productos</a></li>
+          <li className='navBar-item'><a className="list-link" href="#">Productos</a></li>
+          <li className='navBar-item'><a className="list-link" href="#">Productos</a></li>
           
         </ul>
       </nav>
